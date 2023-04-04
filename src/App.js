@@ -7,7 +7,7 @@ import Movie1card from "./Movie1Card"
 
 
 //90e23b78
-const API_URL='http://www.omdbapi.com/?i=tt3896198&apikey=90e23b78' //stores data from api 
+const API_URL='https://www.omdbapi.com/?i=tt3896198&apikey=90e23b78' //stores data from api 
 
 
 const App = () => {
@@ -25,7 +25,7 @@ const App = () => {
   },[]);
   return (
     <div className="app">
-        <h1>NetFlex</h1>
+        <h1 className="text-4xl">NetFlex</h1>
         <div className="search">
           <input placeholder="search for movies" value={searchTerm} onChange={(e)=>setSearchTerm(e.target.value)} />
           <img src={searchIcon} onClick={()=>searchMovies(searchTerm)} />

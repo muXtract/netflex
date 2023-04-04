@@ -11,7 +11,7 @@ const Movie1Card = ({movie}) => {
               </div>
               <div>
                 <span>{movie.Type}</span>
-                <h3>{movie.Poster!=="N/A"?movie.Title=movie.Title:movie.Title="Search a movie"}</h3>
+                <h3>{movie.Poster!=="N/A"?movie.Title=movie.Title:movie.Title="Search Some movie"}</h3>
               </div>
      </div>
   )
